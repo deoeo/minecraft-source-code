@@ -1,0 +1,27 @@
+offline = false
+online = true
+name = true
+skin = true, unless connection = false
+    if connection = false
+    say('Can Not Connect')
+end;
+
+server.host.yourip = true
+    if server = true
+    server = work
+end;
+
+adress = server.ip.get = true
+name = custom.name
+
+server.connect = true
+    if server.host.yourip = false
+localhost = false
+    if server.host.yourip = true
+localhost = true
+
+server.add.button = true
+    add.server('name')
+    add.adress('adress')
+end;
+ 

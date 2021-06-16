@@ -1,0 +1,4 @@
+offline = true
+skin = true, unless connection = false
+name = true
+end;

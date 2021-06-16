@@ -1,0 +1,15 @@
+settings = load
+when minecraft.game = launched
+
+settings.game =
+fov = 90
+graphics = HD_4K
+brightness = 1 
+fulscireen = true
+##### auto jump is best troll ever
+auto_jump = true 
+mouse_sensitivity = 1.3
+end;
+
+save.settings = always on
+end;

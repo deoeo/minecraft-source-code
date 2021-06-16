@@ -1,0 +1,49 @@
+game.close = true
+    if game.close = false
+minecraft.game = start
+
+set.skin = minecraft.skin//importskins.from.minecraft.net;
+set.name = minecraft.name//importnames.from.minecraft.net;
+
+minecraft.game = true
+minecraft.player.name = set.name
+minecraft.player.skin = set.skin
+end;
+
+singleplayer = create = true
+   if single player = created
+   launchworld.game
+multiplayer = add = true
+   if multi = created
+   launchserver.game
+server = true
+   if server = hosted
+   server.add = true
+settings.create = true
+   settings.import from settings.game
+end;
+
+mobs= true
+mobs.names, mobs.textures = AxolotlFace.png	BatFace.png	CatFace.png	ChickenFace.png	CodBody.png	CowFace.png	DonkeyFace.png	FoxFace.png	GlowSquidFace.png	HorseFace.png
+Axolotl	Bat	Cat	Chicken	Cod	Cow	Donkey	Fox	Glow Squid	Horse
+MooshroomFace.png	MuleFace.png	OcelotFace.png	ParrotFace.png	PigFace.png	PiglinFace.png	PolarBearFace.png	PufferfishFace.png	RabbitFace.png	SalmonBody.png
+Mooshroom	Mule	Ocelot	Parrot	Pig	Piglin (baby)	Polar Bear (baby)	Pufferfish	Rabbit	Salmon
+SheepFace.png	SkeletonHorseFace.png	SnowGolemFace.png	SquidFace.png	StriderFace.png	TropicalFishBody.png	TurtleFace.png	VillagerFace.png	WanderingTraderFace.png
+Sheep	Skeleton Horse	Snow Golem	Squid	Strider	Tropical Fish	Turtle	Villager	Wandering Trader
+end;
+
+drop.rates = low
+   if player.name = dreanm
+   drop.rates = high
+end;
+
+lock.user.account = true, only
+    if user.sold = true
+unlock.user.account = true, only
+    if user.sold = false
+end;
+
+game.close = false
+    if game.close = true
+minecraft.game = end
+
