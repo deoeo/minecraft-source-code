@@ -1,4 +1,4 @@
-## all source code was cracked by deoeo
+## all source code was cracked by gtblessgo
 ### this is real
 ### not fake
 
